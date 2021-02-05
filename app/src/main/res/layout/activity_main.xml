@@ -13,7 +13,41 @@
         android:layout_marginTop="30dp"
         android:text="@string/name"
         android:textAlignment="center"
-        style="@style/NameStyle"/>
+        style="@style/NameStyle"
+        android:textSize="@dimen/text_size"/>
+
+    <EditText
+        android:id="@+id/nickname_EditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/nickname"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:autofillHints="" />
+
+
+    <Button
+        android:id="@+id/done_Button"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/done" />
+
+    <TextView
+        android:id="@+id/nickname_TextView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="gone"/>
+
+
 
     <ImageView
         android:id="@+id/imageView"
@@ -21,7 +55,8 @@
         android:layout_height="200dp"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:src="@drawable/image"/>
+        android:src="@drawable/image"
+        android:contentDescription="@string/imagedescription"/>
 
 
     <ScrollView
@@ -42,6 +77,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/bio"
                 style="@style/NameStyle"
+                android:textSize="@dimen/text_size"
                 android:textAlignment="textStart"
                 android:lineSpacingMultiplier="1.5">
 

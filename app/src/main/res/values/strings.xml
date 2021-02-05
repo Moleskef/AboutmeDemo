@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Aboutme</string>
     <string name="name">Kayode Molehin</string>
+    <string name="nickname">What is your nickname</string>
+    <string name="done"> Done </string>
+    <string name="imagedescription">Profile Picture</string>
 
     <string name="bio">Hi, my name is Aleks.
 \n\nI love fish.
